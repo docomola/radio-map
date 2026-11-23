@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>电波地图 隐私政策</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0d0d0f; color: #e8e8ea;
+         font: 15px/1.75 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; }
+  h1 { font-size: 26px; letter-spacing: .5px; margin: 0 0 6px; }
+  .sub { color: #8b8b93; font-size: 13px; margin-bottom: 34px; }
+  h2 { font-size: 17px; margin: 34px 0 10px; color: #ff8a4c; }
+  p, li { color: #cfcfd4; }
+  ul { padding-left: 20px; }
+  code { background: #1a1a1e; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+  a { color: #ff8a4c; }
+  hr { border: 0; border-top: 1px solid #232327; margin: 40px 0; }
+  footer { color: #6f6f77; font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>电波地图 隐私政策</h1>
+  <div class="sub">生效日期：2026 年 11 月 23 日 · 适用版本：1.0.0 及以上 · 应用包名：com.verlin.lumina</div>
+
+  <p>「电波地图」（以下简称本应用）是一款运行于 HarmonyOS 的电台收听工具。我们尊重并保护你的个人信息，
+  本政策说明本应用如何处理与你有关的信息。</p>
+
+  <h2>一、我们不收集个人信息</h2>
+  <p>本应用<b>不需要注册或登录</b>，<b>不收集</b>你的姓名、手机号、邮箱、身份证件、通讯录、短信、相册、精确位置、
+  麦克风、摄像头等任何个人信息与敏感权限，也不会读取设备标识符用于画像或广告投放。</p>
+
+  <h2>二、仅保存在本机的数据</h2>
+  <ul>
+    <li>收藏的电台列表、最近收听记录；</li>
+    <li>音量、外观与收听范围等偏好设置；</li>
+    <li>电台目录缓存文件（用于离线快速打开列表）。</li>
+  </ul>
+  <p>以上数据全部存放在应用私有目录内，<b>不会上传到我们的服务器</b>（我们也没有这样的服务器）。
+  卸载应用即随之删除。</p>
+
+  <h2>三、网络请求说明</h2>
+  <p>本应用通过公开接口 <code>radio-browser.info</code> 获取电台名称、分类与播放地址。请求过程中，
+  该第三方服务会按其自身规则接收到你的 IP 地址等技术信息，用于完成接口响应；
+  本应用不向该服务提交任何账号或身份信息。音频流由各电台自行提供，播放时由你的设备直接连接对应电台服务器。</p>
+  <p>该服务的隐私说明见：<a href="https://www.radio-browser.info/" target="_blank" rel="noreferrer">radio-browser.info</a>。</p>
+
+  <h2>四、权限使用</h2>
+  <ul>
+    <li><b>网络访问（INTERNET）</b>：读取电台目录、播放网络音频流，是核心功能所必需。</li>
+    <li><b>后台运行 / 长时任务</b>：用于锁屏与切到后台后继续播放广播，可在系统通知中随时停止。</li>
+  </ul>
+  <p>除上述权限外，本应用不申请其他系统权限。</p>
+
+  <h2>五、第三方共享</h2>
+  <p>本应用不向任何第三方出售、出租或共享你的信息；不含第三方广告 SDK、统计 SDK 与推送 SDK。</p>
+
+  <h2>六、未成年人保护</h2>
+  <p>本应用不面向儿童单独收集任何信息。若未成年人在监护人指导下使用，其收藏与收听记录同样仅保存在本机。</p>
+
+  <h2>七、你的权利</h2>
+  <p>你可以随时在应用内删除收藏、清除收听记录，或直接卸载应用以删除全部本地数据。</p>
+
+  <h2>八、政策更新</h2>
+  <p>若本政策发生实质性变更，我们会在应用新版本发布时同步更新本页面并修改生效日期。</p>
+
+  <h2>九、联系我们</h2>
+  <p>对本政策有疑问，或认为存在侵权内容需要下架，可通过
+  <a href="https://github.com/docomola/radio-map/issues" target="_blank" rel="noreferrer">项目 Issue</a> 与我们联系。</p>
+
+  <hr>
+  <footer>电波地图 Radio Map · 本应用仅做电台索引与播放地址检索，不制作、不存储、不转播任何音频内容。</footer>
+</main>
+</body>
+</html>
