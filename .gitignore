@@ -1,0 +1,6 @@
+# 本仓库只分发安装包，不提交任何构建产物与源码
+*.hap
+*.hsp
+*.app
+build/
+node_modules/
